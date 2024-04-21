@@ -80,7 +80,7 @@
   <!-- Footer -->
   <footer>
     <form action="" class="mailing-list">
-      <input type="email" id="email" name="email" placeholder="Add your email to sign up to the mailing list">
+      <input type="email" id="email" name="email" placeholder="Add your email to sign up to the mailing list" value="" required oninvalid="this.setCustomValidity('Please enter a valid email')" oninput="this.setCustomValidity('')">
       <input type="submit" id="submit" value="Submit">
     </form>
   </footer>
